@@ -1,0 +1,54 @@
+/*using a google font that i imported from google fonts*/
+body {
+    font-family: 'Playfair Display', Times, serif;
+    padding: 0 45px;
+}
+/*adjusting the column count*/
+.container{
+    column-count: 3;
+}
+/*adding 2 vertical lines to surround the h1 element*/
+h1::before,h1::after{
+    content: '|'; /* Use vertical bar as content */
+    color: rgb(185, 185, 185);
+} 
+/*adjusting the image*/
+.container img{
+    height: auto;
+    width: 100%;
+}
+/*adjusting item1s font-size and margin*/
+.item1 h2{
+    font-size: 24px;
+    margin: 1px;
+}
+
+.item1 p{
+    margin: 1px;
+    font-size: 10px;
+}
+/*adjusting item2s font-size and margin*/
+.item2 h2{
+    font-size: 10px;
+    margin: 0;
+}
+
+.item2 p{
+font-size: 10px;
+margin: 0;
+}
+/*adjusting header element to be orange and font-size*/
+header {
+    font-size: 10px;
+    color: orange;
+}
+/*every element that is "strong" should be the color orange*/
+strong {
+    color: orange;
+}
+
+/*note: for this assignment i could not figure out how to get the text to be under the image and then
+wrap below it for 2 columns then have it continue at the top of the page for the last column.
+i would appreciate your feedback on how to achieve this layout*/
+
+
